@@ -1,0 +1,17 @@
+package test1;
+
+
+
+
+
+public class classTest extends HttpServlet {
+  public void doGet(HttpServletRequest req, HttpServletResponse res)
+throws 
+  ServletException, IOException) {
+    PrintWriter out = res.getWriter();
+I   Page p = new Page("Bonjour.html") ;
+    p.put("Bonjour","<B>Bonjour !</B>");
+    p.put("Aurevoir","<B>Au revoir !</B>");
+    out.print(p.toString()) ;
+  }
+}

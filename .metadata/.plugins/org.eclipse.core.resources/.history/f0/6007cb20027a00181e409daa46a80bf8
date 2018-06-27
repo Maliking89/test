@@ -1,0 +1,18 @@
+package test1;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		        try {
+		            failingMethod();
+		        } catch (Exception e) {
+		            System.out.println("Error: " + e.getMessage());
+		        }
+		    }       
+
+		    private static void failingMethod() {
+		        throw new RuntimeException("Just the message");
+		    }
+		}
