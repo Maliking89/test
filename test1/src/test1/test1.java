@@ -7,6 +7,8 @@ public class test1 {
 		int i=3;
 		int j=0;
 		System.out.println("test1");
+		System.out.println("test2");
+
 	}
 
 }
