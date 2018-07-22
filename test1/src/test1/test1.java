@@ -6,7 +6,7 @@ public class test1 {
 
 		int i=3;
 		int j=0;
-		System.out.pri	
+		System.out.println("test1");
 	}
 
 }
