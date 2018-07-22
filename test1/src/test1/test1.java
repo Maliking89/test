@@ -8,6 +8,8 @@ public class test1 {
 		int j=0;
 		System.out.println("test1");
 		System.out.println("test2");
+		System.out.println("test3");
+
 
 	}
 
